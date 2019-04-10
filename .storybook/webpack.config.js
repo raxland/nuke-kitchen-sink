@@ -11,4 +11,19 @@ module.exports = {
       },
     ],
   },
+  externals: {
+    '@weex-module/animation': 'null',
+    '@weex-module/dom': 'null',
+    '@weex-module/modal': 'null',
+    '@weex-module/navigator': 'null',
+    '@weex-module/picker': 'null',
+    '@weex-module/expressionBinding': 'null',
+  },
+  resolve: {
+    alias: {
+      nuke: 'weex-nuke',
+      // react: 'rax',
+      // 'react-dom': 'rax',
+    },
+  },
 };

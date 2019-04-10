@@ -33,7 +33,8 @@
     "@storybook/addons": "5.0.0",
     "@storybook/rax": "file:/Users/thanh.trantrong/work/labs/rax-storybook/storybook.github/app/rax",
     "event-emitter": "^0.3.5",
-    "rax": "^0.6.5"
+    "rax": "0.6.5",
+    "weex-nuke": "^2.1.13"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",

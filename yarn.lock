@@ -5277,7 +5277,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^2.3.1:
+hoist-non-react-statics@^2.3.0, hoist-non-react-statics@^2.3.1:
   version "2.5.5"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-2.5.5.tgz#c5903cf409c0dfd908f388e619d86b9c1174cb47"
   integrity sha512-rqcy4pJo55FTTLWt+bU8ukscqHeE/e9KWvsOW2b/a3afxQZhwkQdT1rPPCJ0rYXdj4vNcasY8zHTH+jF/qStxw==
@@ -8410,7 +8410,7 @@ qs@6.5.2:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
   integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
 
-qs@^6.5.2:
+qs@^6.5.1, qs@^6.5.2:
   version "6.7.0"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
@@ -8582,6 +8582,13 @@ rax-text@^0.6.5:
   dependencies:
     universal-env "^0.6.5"
 
+rax-video@^0.4.20:
+  version "0.4.20"
+  resolved "https://registry.yarnpkg.com/rax-video/-/rax-video-0.4.20.tgz#2686db5759b3bba8e55c6bda40c482de80f12e20"
+  integrity sha1-JobbV1mzu6jlXGvaQMSC3oDxLiA=
+  dependencies:
+    universal-env "^0.4.20"
+
 rax-view@^0.6.5:
   version "0.6.5"
   resolved "https://registry.yarnpkg.com/rax-view/-/rax-view-0.6.5.tgz#495c18751dc5d514bf2b83dbb738e36b03f74079"
@@ -8605,10 +8612,10 @@ rax-webpack-plugin@^0.6.5:
     source-map "^0.6.1"
     webpack-sources "^1.0.1"
 
-rax@^0.6.5:
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/rax/-/rax-0.6.7.tgz#171eed75e7ef8f77908664c3a923f34b0f53b8e2"
-  integrity sha512-/6IGag0QiWPdNsIvGcOkwDo3E4jsghf66HUYaVfKBSl5lBZhAygbp72HisiqwBocWBH8UBQCEXm0+i0gxYMCcw==
+rax@0.6.5:
+  version "0.6.5"
+  resolved "https://registry.yarnpkg.com/rax/-/rax-0.6.5.tgz#4e7402fe4a1165a50a43f7504fa4a94670eda8bd"
+  integrity sha512-CB1BY0iBCQ+QLXyOG0MkadCoxBQ8TQf8l0gCYVodzRyOctxQxIGS7zrg3/05hvK8aOoJydWkyFhAVUMoTifyMg==
   dependencies:
     driver-browser "^0.6.5"
     driver-server "^0.6.5"
@@ -10365,10 +10372,22 @@ unique-slug@^2.0.0:
   dependencies:
     imurmurhash "^0.1.4"
 
+universal-env@^0.4.20:
+  version "0.4.20"
+  resolved "https://registry.yarnpkg.com/universal-env/-/universal-env-0.4.20.tgz#695a1769c70c1a714335096566741841f8909726"
+  integrity sha1-aVoXaccMGnFDNQllZnQYQfiQlyY=
+
 universal-env@^0.6.5:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/universal-env/-/universal-env-0.6.6.tgz#dd5adf816a8ec3e908d4848e1714dfe30dd8a970"
   integrity sha512-CqBdTKFStTEV7wETHjWm7CDIbSdUxIlN3zQ5xraTG6Wb1XEmBgyW1pu8lJW0buRXjACgjrD+pr97akumbQ0Y6A==
+
+universal-panresponder@^0.4.20:
+  version "0.4.20"
+  resolved "https://registry.yarnpkg.com/universal-panresponder/-/universal-panresponder-0.4.20.tgz#c43dc907bc36e91b56a4d0abc6569a37c68283c6"
+  integrity sha1-xD3JB7w26RtWpNCrxlaaN8aCg8Y=
+  dependencies:
+    universal-env "^0.4.20"
 
 universalify@^0.1.0:
   version "0.1.2"
@@ -10702,6 +10721,17 @@ websocket-extensions@>=0.1.1:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
   integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+
+weex-nuke@^2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/weex-nuke/-/weex-nuke-2.1.13.tgz#181600ba309ca71d5e158bedf2941d3a09be27c5"
+  integrity sha512-PsnUtgoGYnyWeOwMLQJdiEhjlNv937r+1CU7aPbPhpmmXta4qwJH5wzmm+2gNGtqy8b66dOyfXvyDBci/R3dKQ==
+  dependencies:
+    component-emitter "^1.2.1"
+    hoist-non-react-statics "^2.3.0"
+    qs "^6.5.1"
+    rax-video "^0.4.20"
+    universal-panresponder "^0.4.20"
 
 whatwg-fetch@>=0.10.0:
   version "3.0.0"
